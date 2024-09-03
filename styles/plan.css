@@ -286,8 +286,12 @@
         width: 24px;
         height: 24px;
     }
-    .plan_section > .prices {
+    .plan_section > .prices,
+    .plan_section > .title {
         transform: scale(0.9);
+    }
+    .plan_section > .info {
+        padding-left: 80px;
     }
     
 }

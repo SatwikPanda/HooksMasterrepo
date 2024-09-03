@@ -130,15 +130,15 @@
         height: 240px;
     }
     .hero_section > .container {
-        width: 100%;
+        width: 1000px;
     }
     .hero_section > .container > h1,
     .hero_section > .container > h1 > span {
         margin-top: 51px;
         font-family: "Plus Jakarta Sans", sans-serif;
-        font-size: 64px;
+        font-size: 58px;
         font-weight: 700;
-        line-height: 92.94px;
+        line-height: 88.94px;
         text-align: left;
         color: #FFFFFF;
     }
@@ -179,7 +179,7 @@
     .hero_section > .box {
         position: relative;
         width: 590px;
-        height: 588.3px;
+        height: 588px;
         border-radius: 16px;
         background: #5C5C5C;
     }
@@ -187,8 +187,7 @@
         width: 79.3px;
         height: 114.48px;
     }
-    .hero_section > .container,
-    .hero_section > .box {
+    .hero_section > .container, {
         transform: scale(0.9);
     }
 
