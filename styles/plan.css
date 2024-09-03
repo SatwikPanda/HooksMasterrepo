@@ -224,7 +224,7 @@
         line-height: 66px;
     }
     .plan_section > .prices {
-        margin: 72px 0;
+        margin: 20px 0;
     }
     .plan_section > .prices > .card {
         width: 390px;
@@ -236,11 +236,11 @@
     }
     .plan_section > .prices > .card > h1 {
         font-size: 48px;
-        line-height: 60px;
+        line-height: 50px;
     }
     .plan_section > .prices > .card > h1 > span {
         font-size: 16px;
-        line-height: 60px;
+        line-height: 50px;
     }
     .plan_section > .prices > .card > h6 {
         font-size: 16px;
@@ -285,6 +285,9 @@
         margin-right: 24px;
         width: 24px;
         height: 24px;
+    }
+    .plan_section > .prices {
+        transform: scale(0.9);
     }
     
 }

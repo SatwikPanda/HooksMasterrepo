@@ -79,6 +79,13 @@
         width: auto;
         height: 555px;
     }
+    .hooks_section > .title,
+    .hooks_section > .container {
+        transform: scale(0.9);
+    }
+    .hooks_section {
+        height: 1400px;
+    }
 }
 
 @media screen and (max-width: 560px) {

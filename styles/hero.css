@@ -5,7 +5,7 @@
     overflow: hidden;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -42,7 +42,7 @@
 .hero_section > .container > h1 > span {
     margin-top: 51px;
     font-family: Plus Jakarta Sans, sans-serif;
-    font-size: 42px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 61px;
     text-align: left;
@@ -125,9 +125,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .hero_section {
-        padding: 140px 108px;
-    }
     .elips {
         bottom: -180px;
         height: 240px;
@@ -190,6 +187,11 @@
         width: 79.3px;
         height: 114.48px;
     }
+    .hero_section > .container,
+    .hero_section > .box {
+        transform: scale(0.9);
+    }
+
 }
 
 

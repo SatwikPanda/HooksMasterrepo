@@ -79,6 +79,13 @@
         font-size: 20px;
         line-height: 25.2px;
     }
+    .why_us_section > h1,
+    .why_us_section > .container {
+        transform: scale(0.9);
+    }
+    .why_us_section {
+        height: 500px;
+    }
 
 }
 

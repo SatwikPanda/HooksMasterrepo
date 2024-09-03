@@ -113,12 +113,14 @@ header > div > .auth > .get_started:active {
         object-fit: contain;
     }
     header {
-        padding: 34px 108px;
+        padding: 34px 100px;
         height: 100px;
+        position: relative;
     }
     header > div {
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
     header > div > .navigation {
         display: flex;
@@ -129,7 +131,7 @@ header > div > .auth > .get_started:active {
     }
 
     header > div > .navigation li a {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 400;
         line-height: 30.24px;
         text-align: left;
@@ -147,14 +149,14 @@ header > div > .auth > .get_started:active {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 121px;
-        height: 62px;
+        width: fit-content;
+        height: fit-content;
         cursor: pointer;
         margin-right: 24px;
         margin-left: 32px;
         background: none;
         font-family: "Plus Jakarta Sans", sans-serif;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 600;
         line-height: 30.24px;
         text-align: left;
@@ -181,7 +183,7 @@ header > div > .auth > .get_started:active {
 
 
         font-family: "Plus Jakarta Sans", sans-serif;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 600;
         line-height: 30.24px;
         text-align: center;

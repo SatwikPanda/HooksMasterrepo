@@ -195,6 +195,18 @@
         color: #191919B2;
         text-transform: capitalize;
     }
+    .work_section > h1,
+    .work_section > .work_container {
+        transform: scale(0.9);
+    }
+    .work_section {
+        height: 3020px;
+        position: relative;
+    }
+    
+    .work_section > .work_container {
+        position: absolute;
+    }
 }
 
 

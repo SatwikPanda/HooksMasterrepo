@@ -228,6 +228,10 @@
         height: 24px;
         margin-left: 10px;
     }
+    .contact_section > .info_block,
+    .contact_section > .input_block {
+        transform: scale(0.9);
+    }
     
 }
 
