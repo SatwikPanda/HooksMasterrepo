@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <title>App</title>
     <script>
+        window.onload = function() {
+             adjustZoom();
+        };
         function adjustZoom() {
             const screenWidth = window.innerWidth;
             if (screenWidth >= 1400 && screenWidth <= 1599) {
