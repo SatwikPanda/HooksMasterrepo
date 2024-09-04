@@ -8,21 +8,22 @@
     <link rel="stylesheet" href="style.css">
     <title>App</title>
     <script>
-        window.onload = function() {
-             adjustZoom();
-        };
         function adjustZoom() {
             const screenWidth = window.innerWidth;
             if (screenWidth >= 1400 && screenWidth <= 1599) {
                 document.body.style.zoom = "88%";
             }
+            document.body.classList.remove("body-hidden");
 
         }
         document.addEventListener("DOMContentLoaded", adjustZoom);
         document.addEventListener("resize", adjustZoom);
+        window.onload = function() {
+             adjustZoom();
+        };
     </script>
 </head>
-<body>
+<body class="body-hidden">
 <div class="root">
     <header>
         <img class="logo" src="assets/logo.svg" alt="logo">
