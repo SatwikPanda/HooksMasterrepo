@@ -8,13 +8,15 @@
     <link rel="stylesheet" href="style.css">
     <title>App</title>
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
+        function adjustZoom() {
             const screenWidth = window.innerWidth;
-            
             if (screenWidth >= 1400 && screenWidth <= 1599) {
                 document.body.style.zoom = "88%";
             }
-        });
+
+        }
+        document.addEventListener("DOMContentLoaded", adjustZoom);
+        document.addEventListener("resize", adjustZoom);
     </script>
 </head>
 <body>
