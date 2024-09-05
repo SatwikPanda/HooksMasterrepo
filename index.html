@@ -24,17 +24,6 @@
         window.onload = function() {
              adjustZoom();
         };
-        const open_menu_button = document.querySelector(".menu"),
-        menu_wrapper = document.querySelector(".menu_wrapper"),
-        close_menu_button = document.querySelector(".close_menu");
-
-        open_menu_button.addEventListener("click", () => {
-            menu_wrapper.style.display = "flex"
-        })
-
-        close_menu_button.addEventListener("click", () => {
-            menu_wrapper.style.display = "none"
-        })
     </script>
 </head>
 <body class="body-hidden">
@@ -71,16 +60,16 @@
         <img class="close_menu" src="assets/close.svg" alt="close menu">
         <ul class="navigation">
             <li>
-                <a href="#">Home</a>
+                <a href="#Home" class="menu-a">Home</a>
             </li>
             <li>
-                <a href="#">Portfolio</a>
+                <a href="#Portfolio" class="menu-a">Portfolio</a>
             </li>
             <li>
-                <a href="#">About</a>
+                <a href="#About" class="menu-a">About</a>
             </li>
             <li>
-                <a href="#">Contact</a>
+                <a href="#Contact" class="menu-a">Contact</a>
             </li>
         </ul>
     </div>
