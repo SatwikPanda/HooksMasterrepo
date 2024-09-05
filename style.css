@@ -26,3 +26,28 @@
 input {
     outline: none;
 }
+
+.body-hidden {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 391px) {
+    body {
+        zoom: 95%;
+    }
+}
+@media screen and (max-width: 371px) {
+    body {
+        zoom: 90%;
+    }
+}
+@media screen and (max-width: 351px) {
+    body {
+        zoom: 85%;
+    }
+}
+@media screen and (max-width: 332px) {
+    body {
+        zoom: 81.8%;
+    }
+}

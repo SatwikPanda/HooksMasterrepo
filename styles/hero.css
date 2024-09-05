@@ -8,7 +8,6 @@
     justify-content: space-around;
     align-items: center;
 }
-
 .elips {
     position: absolute;
     width: 120%;
@@ -187,7 +186,7 @@
         width: 79.3px;
         height: 114.48px;
     }
-    .hero_section > .container, {
+    .hero_section > .container {
         transform: scale(0.9);
     }
 
@@ -196,6 +195,7 @@
 
 
 @media screen and (max-width: 560px) {
+    
     .hero_section {
         padding: 48px 25px 148px 25px;
         flex-direction: column;

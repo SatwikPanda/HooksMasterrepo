@@ -130,6 +130,5 @@
     .hooks_section > .container > .box > video {
         width: 100%;
         height: 380px;
-        object-fit: contain;
     }
 }
